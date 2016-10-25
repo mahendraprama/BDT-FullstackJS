@@ -108,7 +108,7 @@ order2 = new OrderLineItem();
 order2.product = book2;
 order2.totalItem = 2;
 
-console.log("My cart...");
+console.log("My cart");
 MyCart = new Cart;
 MyCart.addItem(order1);
 MyCart.addItem(order2);
